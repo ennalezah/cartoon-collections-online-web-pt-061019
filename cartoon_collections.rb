@@ -3,7 +3,7 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(planteer_calls)
-  exclamated = planteer_calls.map {|call| "#{call.capitalize}!"}
+  exclaimed_call = planteer_calls.map {|call| "#{call.capitalize}!"}
 end
 
 def long_planeteer_calls# code an argument here
