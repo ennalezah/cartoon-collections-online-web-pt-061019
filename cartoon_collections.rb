@@ -17,9 +17,7 @@ def find_the_cheese(list)
   
   
   list.find do |item|
-    cheese_types.each do |cheese|
-      item.include?(cheese)
-    end 
+    cheese_types.include?(item)
   end 
   
 end
