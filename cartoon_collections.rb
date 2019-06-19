@@ -14,7 +14,6 @@ def find_the_cheese(list)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  list.include?(cheese_types)
-  
+  list.find {}
   
 end
