@@ -3,8 +3,11 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(planeteer_calls)
-  exclaimed_call = planeteer_calls.map {|call| "#{call.capitalize}!"}
-  exclaimed_call.split
+  i = 0 
+  
+  while i < planeteer_calls.length 
+    yield
+  end 
 end
 
 def long_planeteer_calls# code an argument here
