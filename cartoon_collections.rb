@@ -2,7 +2,7 @@ def roll_call_dwarves(names)
   names.each_with_index {|dwarf, index| puts "#{index + 1} #{dwarf}"}
 end
 
-def summon_captain_planet(planteer_calls)
+def summon_captain_planet(planeteer_calls)
   exclaimed_call = planteer_calls.map {|call| "#{call.capitalize}!"}
 end
 
